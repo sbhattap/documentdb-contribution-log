@@ -178,9 +178,9 @@ Baseline (already verified this session): both existing smoke tests pass —
 
 ## Implementation Notes
 
-### Week [X] Progress
+### Week [3] Progress
 
-[TBD]
+[Implementation almost completed for the accumulator test files of $lastN but not ready to be pushed yet]
 
 ### Week [Y] Progress
 
@@ -188,7 +188,7 @@ Baseline (already verified this session): both existing smoke tests pass —
 
 ### Code Changes
 
-- **Files modified:** [List]
+- **Files modified:** [test_accumulator_lastN_errors.py, test_accumulator_lastN.py]
 - **Key commits:** [Links to important commits]
 - **Approach decisions:** [Why I chose certain approaches]
 
