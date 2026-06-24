@@ -5,7 +5,7 @@
 **Contribution Number:** 1 
 **Contributor:** Subarna  
 **Issue:** [documentdb/functional-tests#199](https://github.com/documentdb/functional-tests/issues/199)
-**Status:** [Phase II Complete]
+**Status:** [Phase III in progress]
 
 ---
 
