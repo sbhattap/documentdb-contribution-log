@@ -2,10 +2,11 @@
 
 # Contribution [#1]: Add compatibility test for $lastN (second pass)
 
-**Contribution Number:** 1 
+**Contribution Number:** 1
 **Contributor:** Subarna  
 **Issue:** [documentdb/functional-tests#199](https://github.com/documentdb/functional-tests/issues/199)
-**Status:** [Phase III in progress]
+**Related Issue:** [documentdb/functional-tests#473](https://github.com/documentdb/functional-tests/issues/473)
+**Status:** [Phase IV in progress]
 
 ---
 
@@ -179,24 +180,47 @@ Baseline (already verified this session): both existing smoke tests pass —
 ## Implementation Notes
 
 ### Week [3] Progress
-
+Phase III in Progress
 [Implementation almost completed for the accumulator test files of $lastN but not ready to be pushed yet]
 
-### Week [Y] Progress
+### Week [4] Progress
+Phase III in progress
+[Local changes and testing done for the accumulator tests files but not ready to be pushed yet]
 
-[TBD]
+### Week [5] Progress
+Phase III Complete
+Files were pushed to my repo branch
+- test_accumulator_lastN.py: n vs group size, sort-order
+  dependence, null/missing handling (included, not skipped),
+  mixed BSON types, and empty groups.
+- test_accumulator_lastN_errors.py: missing, zero, negative, and
+  non-integer n.
+
+### Week [6] Progress
+Phase IV in Progress
+[Created a draft Pull Request because I realized there is a related issue that could also be taken caren of based on my planning documents.*]
+
+
+### Week [7] Progress
+Phase IV in Progress
+[Working on the changes for the additional related issue]
+- documentdb_tests/framework/error_codes.py: Added 7 error codes to be used for expression operator tests
+- testing the new test file for issue #473 and then will open the PR again.
+- This would effectively resolve 2 different sub-issues (issue #199 and issue #473) at the same time.
 
 ### Code Changes
 
 - **Files modified:** [test_accumulator_lastN_errors.py, test_accumulator_lastN.py]
-- **Key commits:** [Links to important commits]
+- **Key commits:** [https://github.com/sbhattap/functional-tests/commit/66708d57339daa5a5d4f33ee7cdbb1c19363216e]
+- https://github.com/sbhattap/functional-tests/commit/fbb4bf8c79299c8cecbd3302f1abc9e1c010b627
+- 
 - **Approach decisions:** [Why I chose certain approaches]
 
 ---
 
 ## Pull Request
 
-**PR Link:** [GitHub PR URL when submitted]
+**PR Link:** [https://github.com/documentdb/functional-tests/pull/680]
 
 **PR Description:** [Draft or final PR description - much of the content above can be adapted]
 
@@ -204,7 +228,7 @@ Baseline (already verified this session): both existing smoke tests pass —
 - [Date]: [Summary of feedback received]
 - [Date]: [How I addressed it]
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+**Status:** [Iterating]
 
 ---
 
