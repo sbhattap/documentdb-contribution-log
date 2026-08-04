@@ -208,7 +208,7 @@ Phase IV in Progress
 - testing the new test file for issue #473 and then will open the PR again.
 - This would effectively resolve 2 different sub-issues (issue #199 and issue #473) at the same time.
 
-### Week [8] Progress
+### Week [8] - [9] Progress
 Phase IV in Progress
 - finishing up additional tests and checks locally before opening PR
 
